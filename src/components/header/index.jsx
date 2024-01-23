@@ -8,14 +8,15 @@ import Cart from "../cart/index";
 import * as Styles from "./styles";
 
 // Utilities
-import { loginUser, logoutUser } from "../../redux/user/actions";
+//import { loginUser, logoutUser } from "../../redux/user/actions";
+import { login, logout } from "../../redux/user/slice";
 import { selectProductsCount } from "../../redux/cart/cart.selectors";
 
 function Header() {
   const [cartIsVisible, setCartIsVisible] = useState(false);
 
   const { currentUser } = useSelector((state) => state.userReducer);
-/*   const { products } = useSelector((s) => rootReducer.cartReducer); */
+  console.log({currentUser});
 
   const productsCount = useSelector(selectProductsCount)
   const dispatch = useDispatch();
@@ -26,11 +27,11 @@ function Header() {
   };
 
   const handleLoginClick = () => {
-    dispatch(loginUser({ name: "Felipe Rocha", email: "felipe@rocha.com" }));
+    dispatch(login({ name: "Guilherme Camargo", email: "camargo@email.com" }));
   };
 
   const handleLogoutClick = () => {
-    dispatch(logoutUser());
+    dispatch(logout());
   };
 
   return (

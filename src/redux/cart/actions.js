@@ -1,4 +1,4 @@
-import CartActionTypes from "./action-types";
+/* import CartActionTypes from "./action-types";
 
 export const addProductToCart = (payload) => ({
     type: CartActionTypes.ADD_PRODUCT,
@@ -18,4 +18,4 @@ export const increaseProductInCard = (payload) => ({
 export const decreaseProductInCard = (payload) => ({
     type: CartActionTypes.DECREASE_PRODUCT,
     payload,
-})
+}) */

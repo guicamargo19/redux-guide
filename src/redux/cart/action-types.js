@@ -1,8 +1,8 @@
-const CartActionTypes = {
+/* const CartActionTypes = {
     ADD_PRODUCT: 'cart/addProduct',
     REMOVE_PRODUCT: 'cart/removeProduct',
     INCREASE_PRODUCT: 'cart/increaseProduct',
     DECREASE_PRODUCT: 'cart/decreaseProduct',
 }
 
-export default CartActionTypes
+export default CartActionTypes */

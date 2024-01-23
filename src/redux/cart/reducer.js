@@ -1,4 +1,4 @@
-import CartActionTypes from "./action-types"
+/* import CartActionTypes from "./action-types"
 
 const initialState = {
     products: [],
@@ -57,4 +57,4 @@ const cartReducer = (state = initialState, action ) => {
     }
 }
 
-export default cartReducer
+export default cartReducer */
