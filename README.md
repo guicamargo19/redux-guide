@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Redux Shopping
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto desenvolvido em **ReactJS** com **JavaScript** e estilização com **Styled Components**, com **Redux**
+gerenciando o estado da aplicação.
 
-## Available Scripts
+## 🚀 Começando
 
-In the project directory, you can run:
+Estas instruções permitirão que você obtenha uma cópia do projeto em execução em sua máquina local para fins de desenvolvimento e teste.
 
-### `npm start`
+### Pré-requisitos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Node.js**
+- **NPM (geralmente vem com o Node.js)**
 
-### `npm test`
+Este projeto foi inicializado com [Create React App](https://github.com/facebook/create-react-app).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Instalação
 
-### `npm run build`
+Siga estas etapas a seguir para configurar o ambiente de desenvolvimento:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone este repositório em sua máquina local.
+2. Navegue até o diretório clonado.
+3. Execute o seguinte comando para instalar as dependências:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  **``npm install``**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Executar o projeto
 
-### `npm run eject`
+Para executar o projeto em modo de desenvolvimento, execute o comando:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  **``npm start``**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Abra [http://localhost:3000](http://localhost:3000) para visualizar no browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+A página irá recarregar se alterações forem feitas.
+Você também verá Lint erros no console, se existirem.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Para executar o projeto em produção, execute o comando:
 
-## Learn More
+  **``npm run build``**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Constrói o app para produção na pasta 'build'.
+Corrige pacotes React em modo de produção e otimiza a contrução para uma melhor performance.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🛠️ Ferramentas utilizadas para construção do projeto
 
-### Code Splitting
+* **CSS** - Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web.
+* **ReactJS** - Biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.
+* **JavaScript** - Linguagem de programação interpretada estruturada, de alto nível com tipagem dinâmica fraca e multiparadigma.
+* **Styled Components** - Uma biblioteca que nos permite escrever CSS em JavaScript enquanto construímos componentes customizados em ReactJS.
+* **NPM** - Gerenciador de pacotes padrão para o ambiente de tempo de execução JavaScript Node.JS.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🎓 Aprenda mais
 
-### Analyzing the Bundle Size
+Você pode aprender mais em [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## ✒️ Autor
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Guilherme Ferreira Camargo

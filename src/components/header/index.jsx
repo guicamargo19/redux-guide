@@ -8,7 +8,7 @@ import Cart from "../cart/index";
 import * as Styles from "./styles";
 
 // Utilities
-//import { loginUser, logoutUser } from "../../redux/user/actions";
+// import { loginUser, logoutUser } from "../../redux/user/actions";
 import { login, logout } from "../../redux/user/slice";
 import { selectProductsCount } from "../../redux/cart/cart.selectors";
 
