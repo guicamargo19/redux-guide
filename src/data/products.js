@@ -1,59 +1,59 @@
 const products = [
   {
     id: "6228fe63b7e6cb904bbe0165",
-    price: 150,
-    name: "Suéter Branco",
+    price: 184.99,
+    name: "Real Madrid Vini Jr.",
     imageUrl:
-      "https://images.unsplash.com/flagged/photo-1559502867-c406bd78ff24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685&q=80",
+      "https://images.yampi.io/unsafe/fit-in/1000x1000/filters:background_color(white):upscale()/https://images.yampi.me/assets/stores/pequenocraque/uploads/images/real-madrid-home-2324-conjunto-infantil-vini-jr-7-3-a-4-anos-16-6494f37509621-large.png",
   },
   {
     id: "6228fec7b7e6cb904bbe016f",
-    name: "Regata Azul",
-    price: 150,
+    name: "Manchester City Halland",
+    price: 184.99,
     imageUrl:
-      "https://images.unsplash.com/photo-1469334031218-e382a71b716b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80s",
+      "https://images.yampi.io/unsafe/fit-in/1000x1000/filters:background_color(white):upscale()/https://images.yampi.me/assets/stores/pequenocraque/uploads/images/manchester-city-home-2324-conjunto-infantil-haaland-9-3-a-4-anos-16-6494f11138553-large.png",
   },
   {
-    price: 200,
+    price: 184.99,
     id: "6228ff71b7e6cb904bbe0175",
     imageUrl:
-      "https://images.unsplash.com/photo-1584670747417-594a9412fba5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-    name: "Suéter Vermelho Vibrante",
+      "https://images.yampi.io/unsafe/fit-in/1000x1000/filters:background_color(white):upscale()/https://images.yampi.me/assets/stores/pequenocraque/uploads/images/bayern-munich-home-2324-conjunto-infantil-kane-9-3-a-4-anos-16-65667a294b402-large.png",
+    name: "Bayern de Munique Kane",
   },
   {
-    name: "Vestido Vermelho",
-    price: 250,
+    name: "Milan Ibrahimovic",
+    price: 184.99,
     imageUrl:
-      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=746&q=80",
+      "https://images.yampi.io/unsafe/fit-in/1000x1000/filters:background_color(white):upscale()/https://images.yampi.me/assets/stores/pequenocraque/uploads/images/milan-home-2324-conjunto-infantil-ibrahimovic-11-3-a-4-anos-16-6537d263b6f00-large.png",
     id: "6228ff93b7e6cb904bbe0177",
   },
   {
-    price: 300,
+    price: 184.99,
     id: "6228fe80b7e6cb904bbe0168",
-    name: "Jaqueta Xadrez",
+    name: "Al Hilal Neymar",
     imageUrl:
-      "https://images.unsplash.com/photo-1525450824786-227cbef70703?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "https://images.yampi.io/unsafe/fit-in/1000x1000/filters:background_color(white):upscale()/https://images.yampi.me/assets/stores/pequenocraque/uploads/images/al-hilal-home-2324-conjunto-infantil-neymar-jr-10-3-a-4-anos-16-64f234a61c449-large.png",
   },
   {
-    price: 200,
-    name: "Blusa Branca",
+    price: 184.99,
+    name: "Al Nassr Cristiano Ronaldo",
     id: "6228ff31b7e6cb904bbe0172",
     imageUrl:
-      "https://images.unsplash.com/photo-1624206112918-f140f087f9b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "https://images.yampi.io/unsafe/fit-in/1000x1000/filters:background_color(white):upscale()/https://images.yampi.me/assets/stores/pequenocraque/uploads/images/al-nassr-away-2324-conjunto-infantil-ronaldo-7-3-a-4-anos-16-656101256a180-large.png",
   },
   {
-    price: 200,
+    price: 184.99,
     imageUrl:
-      "https://images.unsplash.com/photo-1582418702059-97ebafb35d09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80",
+      "https://images.yampi.io/unsafe/fit-in/1000x1000/filters:background_color(white):upscale()/https://images.yampi.me/assets/stores/pequenocraque/uploads/images/miami-home-2425-conjunto-infantil-messi-10-3-a-4-anos-16-65fdd6175ec0b-large.png",
     id: "62290014b7e6cb904bbe017c",
-    name: "Calça Jeans Azul",
+    name: "Inter Miami Messi",
   },
   {
     id: "6228ffa5b7e6cb904bbe017a",
-    name: "Vestido Branco",
-    price: 250,
+    name: "Barcelona Raphinha",
+    price: 184.99,
     imageUrl:
-      "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
+      "https://images.yampi.io/unsafe/fit-in/1000x1000/filters:background_color(white):upscale()/https://images.yampi.me/assets/stores/pequenocraque/uploads/images/barcelona-home-2324-conjunto-infantil-raphinha-22-3-a-4-anos-16-64dc49a128ee4-large.png",
   },
 ];
 

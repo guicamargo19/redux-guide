@@ -1,6 +1,8 @@
 # Redux Shopping
 
-Este projeto desenvolvido em **ReactJS** com **JavaScript** e estilização com **Styled Components**, com **Redux**
+<img src="public/redux.png">
+
+Este projeto foi desenvolvido em **ReactJS** com **JavaScript** e estilização com **Styled Components**, com **Redux**
 gerenciando o estado da aplicação.
 
 ## 🚀 Começando
@@ -55,7 +57,3 @@ Corrige pacotes React em modo de produção e otimiza a contrução para uma mel
 ## 🎓 Aprenda mais
 
 Você pode aprender mais em [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-## ✒️ Autor
-
-Guilherme Ferreira Camargo
